@@ -1,0 +1,71 @@
+
+/* my-theme.css */
+:root {
+  /* global */
+  --background: #fff0f6;
+  --danger: #ffa900;
+  --error: #ff0000;
+
+  /* buttons */
+  --primary: #8d4545;
+  --secondary: #5820c8;
+  --primary-hover: #e2abb5;
+  --secondary-hover: #ecebed;
+
+  /* on modals */
+  --secondary-on-modal: #f3f2f5;
+  --secondary-on-modal-hover: #ecebed;
+  --card-on-modal: #ffffff;
+
+  /* text */
+  --text: #5300f8f6;
+  --secondary-text: #4100ce;
+  --text-on-primary: #000000;
+  --text-on-secondary: #3f00bd;
+
+  /* ui */
+  --divider: #67637033;
+  --dropdown: #ffffff;
+  --dropdown-hover: #f3f2f5;
+  --popup: #16141a;
+  --popup-text: #7c7b7b;
+  --navbar-popup: #ffffff;
+  --navbar-popup-hover: #f3f2f5;
+  --card: #ffffff;
+  --outline: 1px solid #00000005;
+  --toast: #16141a;
+  --toast-text: #ffffff;
+  --modal: #ffffff;
+  --dimmer: #ffffffdd;
+
+  /* shadows */
+  --shadow-1: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  --shadow-2: 0px 10px 20px 0px rgba(0, 0, 0, 0.12);
+  --shadow-3: 0px 16px 32px 0px rgba(0, 0, 0, 0.16);
+
+  --shadow-color-1: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+  --shadow-color-2: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  --shadow-color-3: 0px 16px 32px 0px rgba(0, 0, 0, 0.24);
+
+  /* svgs */
+  --brightness: brightness(0.1); /* black svgs */
+}
+.HomePageHero.dcl.hero {
+  height: var(--page-header-height);
+}
+
+.HomePageHero .hero-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-image: url(../../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HomePageHero.dcl.hero .ui.header.hero-subtitle {
+  margin-bottom: 24px;
+  color: var(--secondary-text);
+}
